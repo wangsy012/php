@@ -1,4 +1,4 @@
 <?php 
-phpinfo();
+phpinfo();//顯示PHP資訊
 ?>
 
