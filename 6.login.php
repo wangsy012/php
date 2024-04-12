@@ -5,7 +5,7 @@
    $result=mysqli_query($conn, "select * from user");//創建一個查詢指令select * from user的變數$result
    #mysqli_fetch_array() 從查詢出來的資料一筆一筆抓出來
    $login=FALSE;
-   while ($row=mysqli_fetch_array($result)) {
+   while ($row=mysqli_fetch_array($result)) {//一個 while 迴圈無法抓取資料就會停止
      if (($_POST["id"]==$row["id"]) && ($_POST["pwd"]==$row["pwd"])) {
        $login=TRUE;
      }
