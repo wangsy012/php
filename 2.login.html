@@ -4,10 +4,11 @@
         <title>登入範例</title>  //載入網頁標題是登入範例
     </head>
     <body>
-        <form method=post action="2.login.php">
-            帳號：<input type=text name="id"><br/>
-            密碼：<input type=password name="pwd"><p></p>
-            <input type=submit value="登入"> <input type=reset value="清除">
+        <form method=post action="2.login.php">//這表示表單提交後數據將被發送到 "2.login.php" 這個 PHP 文件中進行處理。
+            帳號：<input type=text name="id"><br/>//使用者可以在這裡輸入他們的帳號。
+            密碼：<input type=password name="pwd"><p></p>//使用者可以在這裡輸入他們的密碼。這裡使用的是 type="password"，這表示輸入的字符將被遮蔽。
+            <input type=submit value="登入">//用戶點擊這個按鈕後，表單將被提交。
+            <input type=reset value="清除">//用戶點擊這個按鈕後，表單中的所有輸入將被清除。
             
         </form>
     </body>
