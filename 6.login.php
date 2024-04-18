@@ -7,7 +7,7 @@
    $login=FALSE;
    while ($row=mysqli_fetch_array($result)) {//一個 while 迴圈無法抓取資料就會停止
      if (($_POST["id"]==$row["id"]) && ($_POST["pwd"]==$row["pwd"])) {
-       $login=TRUE;//如果結果為TURE會將 $login的布林值設為TRUE
+       $login=TRUE;//如果結果為TURE會將 $login的Bool設為TRUE
      }
    } 
    if ($login==TRUE)
