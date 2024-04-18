@@ -1,5 +1,5 @@
 <?php
-    session_start();//開始一個session
+    session_start();//開始session
     if (!isset($_SESSION["counter"]))//如果session裡沒有設定counter
         $_SESSION["counter"]=1;//將counter設定為1 
     else
