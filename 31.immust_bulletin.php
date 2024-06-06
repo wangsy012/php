@@ -1,8 +1,8 @@
 <html>
-    <head><title>明新科技大學資訊管理系</title>
+    <head><title>明新科技大學資訊管理系</title>//網頁標題
     <meta charset="utf-8">
-    <link href="https://cdn.bootcss.com/flexslider/2.6.3/flexslider.min.css" rel="stylesheet">
-    <script src="https://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+    <link href="https://cdn.bootcss.com/flexslider/2.6.3/flexslider.min.css" rel="stylesheet"> //導入外部CSS
+    <script src="https://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>//外部javascript文件和代碼
     <script src="https://cdn.bootcss.com/flexslider/2.6.3/jquery.flexslider-min.js"></script>        
     <script>
         $(window).load(function() {
@@ -12,7 +12,7 @@
             });
         });
     </script>
-    <style>
+    <style>//網頁風格設定
         *{
             margin:0;
             color:gray;
